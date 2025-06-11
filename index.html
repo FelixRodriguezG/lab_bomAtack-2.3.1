@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+<style>
+    .bomb {
+        position: relative;
+        width: 18rem;
+        height: 18rem;
+        overflow: hidden;
+    }
+
+    .bomb img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: opacity 0.4s ease-in-out;
+    }
+
+    .bomb .bomb-img {
+        opacity: 0;
+    }
+
+    .bomb:hover .bomb-img {
+        opacity: 1;
+    }
+
+    .bomb:hover .default-img {
+        opacity: 0;
+    }
+</style>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <h1 class="text-center ">Bomb Atack</h1>
+    </header>
+    <main class="">
+        <div class="container">
+            <div class="row ">
+                <div class="row g-2 justify-content-center ">
+                    <div class="col-12 col-sm-6 col-md-3 bomb">
+                        <img src="./assets/images/dontStepTheBomb.png" alt="No pises la bomba" class="default-img">
+                        <img src="https://imgs.search.brave.com/9ubjGGuIQN38ayKKvvpnxnZwzwm9w6p1d70-Wral8AA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMy/NTkwMDk3OS9lcy9m/b3RvL2JvbWJhLW5l/Z3JhLWVzZiVDMyVB/OXJpY2EtY29uLWZ1/c2libGUtZW5jZW5k/aWRvLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1UNG1HeGY3/bGJycDZVQ041bzI4/d1c3T2F3WWF6X1Rx/ZUlFcHVnOFlJSVc4/PQ"
+                            alt="bomba" class="bomb-img">
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-3 bomb" style="width: 18rem;">
+                        <img src="./assets/images/dontStepTheBomb.png" alt="No pises la bomba" class="default-img">
+                        <img src="https://imgs.search.brave.com/ISdn2Ep5vceje7lNYjoCBKgv2NBX7LbVHovgb_AO3Yg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/Y3JlYXRlLnZpc3Rh/LmNvbS9hcGkvbWVk/aWEvc21hbGwvNzM0/MDk1MjUvc3RvY2st/cGhvdG8tc3BsYXNo/LW9mLXdhdGVy"
+                            alt="water" class="bomb-img">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 bomb">
+                        <img src="./assets/images/dontStepTheBomb.png" alt="No pises la bomba" class="default-img">
+                        <img src="https://imgs.search.brave.com/9ubjGGuIQN38ayKKvvpnxnZwzwm9w6p1d70-Wral8AA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMy/NTkwMDk3OS9lcy9m/b3RvL2JvbWJhLW5l/Z3JhLWVzZiVDMyVB/OXJpY2EtY29uLWZ1/c2libGUtZW5jZW5k/aWRvLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1UNG1HeGY3/bGJycDZVQ041bzI4/d1c3T2F3WWF6X1Rx/ZUlFcHVnOFlJSVc4/PQ"
+                            alt="bomba" class="bomb-img">
+                    </div>
+                </div>
+                <div class="row g-2 justify-content-center">
+                    <div class="col-12 col-sm-6 col-md-3 bomb">
+                        <img src="./assets/images/dontStepTheBomb.png" alt="No pises la bomba" class="default-img">
+                        <img src="https://imgs.search.brave.com/9ubjGGuIQN38ayKKvvpnxnZwzwm9w6p1d70-Wral8AA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMy/NTkwMDk3OS9lcy9m/b3RvL2JvbWJhLW5l/Z3JhLWVzZiVDMyVB/OXJpY2EtY29uLWZ1/c2libGUtZW5jZW5k/aWRvLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1UNG1HeGY3/bGJycDZVQ041bzI4/d1c3T2F3WWF6X1Rx/ZUlFcHVnOFlJSVc4/PQ"
+                            alt="bomba" class="bomb-img">
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-3 bomb">
+                        <img src="./assets/images/dontStepTheBomb.png" alt="No pises la bomba" class="default-img">
+                        <img src="https://imgs.search.brave.com/9ubjGGuIQN38ayKKvvpnxnZwzwm9w6p1d70-Wral8AA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMy/NTkwMDk3OS9lcy9m/b3RvL2JvbWJhLW5l/Z3JhLWVzZiVDMyVB/OXJpY2EtY29uLWZ1/c2libGUtZW5jZW5k/aWRvLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1UNG1HeGY3/bGJycDZVQ041bzI4/d1c3T2F3WWF6X1Rx/ZUlFcHVnOFlJSVc4/PQ"
+                            alt="bomba" class="bomb-img">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 bomb">
+                        <img src="./assets/images/dontStepTheBomb.png" alt="No pises la bomba" class="default-img">
+                        <img src="https://imgs.search.brave.com/9ubjGGuIQN38ayKKvvpnxnZwzwm9w6p1d70-Wral8AA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMy/NTkwMDk3OS9lcy9m/b3RvL2JvbWJhLW5l/Z3JhLWVzZiVDMyVB/OXJpY2EtY29uLWZ1/c2libGUtZW5jZW5k/aWRvLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1UNG1HeGY3/bGJycDZVQ041bzI4/d1c3T2F3WWF6X1Rx/ZUlFcHVnOFlJSVc4/PQ"
+                            alt="bomba" class="bomb-img">
+                    </div>
+                </div>
+                <div class="row g-2 justify-content-center">
+                    <div class="col-12 col-sm-6 col-md-4 bomb" style="width: 18rem;">
+                        <img src="./assets/images/dontStepTheBomb.png" alt="No pises la bomba" class="default-img">
+                        <img src="https://imgs.search.brave.com/wo8NZJcqHhU5lOmHXx7PToQ91WrMsuQG4B2e0ysTpF4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmVjdG9yLXByZW1p/dW0vZXh0aW50b3It/aW5jZW5kaW9zXzE1/Nzk5OS0yNjUuanBn/P3NlbXQ9YWlzX2l0/ZW1zX2Jvb3N0ZWQm/dz03NDA"
+                            class="img-fluid rounded shadow-sm bomb-img" alt="extintor">
+                    </div>
+
+                   <div class="col-12 col-sm-6 col-md-3 bomb">
+                        <img src="./assets/images/dontStepTheBomb.png" alt="No pises la bomba" class="default-img">
+                        <img src="https://imgs.search.brave.com/9ubjGGuIQN38ayKKvvpnxnZwzwm9w6p1d70-Wral8AA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMy/NTkwMDk3OS9lcy9m/b3RvL2JvbWJhLW5l/Z3JhLWVzZiVDMyVB/OXJpY2EtY29uLWZ1/c2libGUtZW5jZW5k/aWRvLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1UNG1HeGY3/bGJycDZVQ041bzI4/d1c3T2F3WWF6X1Rx/ZUlFcHVnOFlJSVc4/PQ"
+                            alt="bomba" class="bomb-img">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 bomb">
+                        <img src="./assets/images/dontStepTheBomb.png" alt="No pises la bomba" class="default-img">
+                        <img src="https://imgs.search.brave.com/9ubjGGuIQN38ayKKvvpnxnZwzwm9w6p1d70-Wral8AA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMy/NTkwMDk3OS9lcy9m/b3RvL2JvbWJhLW5l/Z3JhLWVzZiVDMyVB/OXJpY2EtY29uLWZ1/c2libGUtZW5jZW5k/aWRvLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1UNG1HeGY3/bGJycDZVQ041bzI4/d1c3T2F3WWF6X1Rx/ZUlFcHVnOFlJSVc4/PQ"
+                            alt="bomba" class="bomb-img">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </main>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
